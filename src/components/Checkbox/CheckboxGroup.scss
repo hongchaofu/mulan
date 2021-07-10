@@ -1,0 +1,17 @@
+.checkbox-group-header{
+    background-color: #ccc;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.checkbox-group-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+
+    .checkbox-group-column{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
